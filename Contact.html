@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project-2</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Start Top-bar-->
+    <div class="Top-bar bg-light">
+      <div class="container-fluid p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+          <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+              <div class="lcon-text d-flex align-items-center">
+                <a class="phone" href="#">
+                  <i class="fa-solid fa-location-dot me-2"></i>
+                </a>
+                <p class="text-black-50 m-0">Find A Location</p>
+              </div>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+              <div class="lcon-text d-flex align-items-center">
+                <a class="phone" href="#">
+                  <i class="fa-solid fa-phone me-2"></i>
+                </a>
+                <p class="text-black-50 m-0">+012 345 6789</p>
+              </div>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3">
+              <div class="lcon-text d-flex align-items-center">
+                <a class="envelope" href="#">
+                  <i class="fa-solid fa-envelope me-2"></i>
+                </a>
+                <p class="text-black-50 m-0">Moo@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 px-5 text-center text-lg-end">
+            <div class="d-inline-flex align-items-center h-100">
+              <a class="me-3 text-black-50" href="#">
+                <i class="fa-solid fa-user me-2"></i> Register</a
+              >
+              <a class="me-3 text-black-50" href="#">
+                <i class="fa-solid fa-right-to-bracket me-2"></i> Login</a
+              >
+
+              <div class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle text-black-50"
+                  data-bs-toggle="dropdown"
+                >
+                  <i class="fa-solid fa-house-user me-2"></i> My Dashboard</a
+                >
+                <div class="dropdown-menu rounded">
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-user me-2"></i> My Profile</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-message me-2"></i> Inbox</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-regular fa-bell me-2"></i> Notifications</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-gear me-2"></i> Account Settings</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-power-off me-2"></i> Log Out</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Top-bar-->
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top py-lg-0 px-lg-5">
+      <div class="container-fluid px-lg-0">
+        <a class="navbar-brand fs-1 fw-bold" href="#">brand <span>.br</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase p-2 p-lg-4"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-2 p-lg-4" href="About.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-2 p-lg-4" href="Services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-2 p-lg-4" href="Blogs.html"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-uppercase p-2 p-lg-4"
+                href="Pages.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Features.html">Our Features</a>
+                </li>
+                <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                <li>
+                  <a class="dropdown-item" href="offer.html">Our offer</a>
+                </li>
+                <li><a class="dropdown-item" href="FAQs.html">FAQs</a></li>
+                <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase active fw-bold p-2 p-lg-4"
+                href="Contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <div class="search icon d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass ps-2 text-light"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+    <!-- Page Header Start -->
+    <div class="page-header py-5 mb-5">
+      <div class="container text-center py-5">
+        <h2 class="display-3 text-white mb-3 fw-bold">Contact Us</h2>
+        <ul class="oll-item d-flex justify-content-center ps-0">
+          <li class="item">
+            <a class="text-white" href="index.html">Home</a>
+          </li>
+          <li class="item px-2">
+            <a class="text-white" href="#">Pages</a>
+          </li>
+          <li class="item">
+            <a class="active" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Contact Start -->
+    <div class="contact">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-xl-6">
+            <div class="oll-item rounded p-5 mb-5">
+              <h4 class="text-primary-1 mb-4">Get in Touch</h4>
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon mb-4">
+                      <i class="fa-solid fa-location-dot fa-2x"></i>
+                    </div>
+                    <div>
+                      <h4>Address</h4>
+                      <p class="mb-0 text-black-50">123 Street New York.USA</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon mb-4">
+                      <i class="fa-solid fa-envelope fa-2x"></i>
+                    </div>
+                    <div>
+                      <h4>Mail Us</h4>
+                      <p class="mb-0 text-black-50">info@example.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon mb-4">
+                      <i class="fa-solid fa-phone-flip fa-2x"></i>
+                    </div>
+                    <div>
+                      <h4>Telephone</h4>
+                      <p class="mb-0 text-black-50">(+012) 3456 7890</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon mb-4">
+                      <i class="fa-brands fa-firefox-browser fa-2x"></i>
+                    </div>
+                    <div>
+                      <h4>Yoursite@ex.com</h4>
+                      <p class="mb-0 text-black-50">(+012) 3456 7890</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="oll-item p-5 rounded">
+              <h4 class="text-primary-1">Send Your Message</h4>
+              <p class="mb-4 text-black-50">
+                The contact form is currently inactive. Get a functional and
+                working contact form with Ajax & PHP in a few minutes. Just copy
+                and paste the files, add a little code and you're done.
+                <a class="fw-bold text-primary-1" href="#">Download Now</a>.
+              </p>
+              <form>
+                <div class="row g-4">
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control border-0 text-black-50"
+                        id="name"
+                        placeholder="Your Name"
+                      />
+                      <label for="name">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input
+                        type="email"
+                        class="form-control border-0"
+                        id="email"
+                        placeholder="Your Email"
+                      />
+                      <label for="email">Your Email</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input
+                        type="phone"
+                        class="form-control border-0 text-black-50"
+                        id="phone"
+                        placeholder="Phone"
+                      />
+                      <label for="phone">Your Phone</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control border-0 text-black-50"
+                        id="project"
+                        placeholder="Project"
+                      />
+                      <label for="project">Your Project</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control border-0 text-black-50"
+                        id="subject"
+                        placeholder="Subject"
+                      />
+                      <label for="subject">Subject</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea
+                        class="form-control border-0 text-black-50"
+                        placeholder="Leave a message here"
+                        id="message"
+                        style="height: 160px"
+                      ></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="main-btn w-100 py-3">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="rounded h-100">
+              <!--Start Google Map-->
+              <iframe
+                class="rounded h-100 w-100"
+                style="object-fit: cover"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d389532.68813259434!2d46.70492091667552!3d24.897170367533608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee370b8e35e3f%3A0xd02d6a722bb0fd08!2z2KfZhNi12K3Yp9mB2KnYjCDYp9mE2LHZitin2LY!5e0!3m2!1sar!2ssa!4v1728766690447!5m2!1sar!2ssa"
+                height="400"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+    <!-- start footer -->
+    <footer class="footer pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="footer-item pt-5">
+              <a href="index.html" class="logo">
+                <h4 class="text-white mb-4">brand <span>.br</span></h4>
+              </a>
+              <p class="mb-4">
+                Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
+                ipsum dolor sit amet, consectetur Dolor amet sit justo amet
+                elitr clita ipsum elitr est.Lorem ipsum dolor sit amet,
+                consectetur adipiscing...
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="footer-item pt-5">
+              <h4 class="text-white mb-4">Quick Links</h4>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> About Us</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Feature</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Attractions</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Tickets</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Blog</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Contact us</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-item pt-5">
+              <h4 class="text-white mb-4">Support</h4>
+              <a href="#"
+                ><i class="fa fa-angle-right me-2"></i> Privacy Policy</a
+              >
+              <a href="#"
+                ><i class="fa fa-angle-right me-2"></i> Terms & Conditions</a
+              >
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Disclaimer</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Support</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> FAQ</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Help</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-item pt-5">
+              <h4 class="text-white mb-4">Contact Info</h4>
+              <div class="address d-flex align-items-center mb-3">
+                <i class="fa fa-map-marker-alt me-3"></i>
+                <p class="mb-0">123 Street New York</p>
+              </div>
+              <div class="mail d-flex align-items-center mb-3">
+                <i class="fa fa-envelope me-3"></i>
+                <p class="mb-0">gmail@gmail.com</p>
+              </div>
+              <div class="phone d-flex align-items-center mb-3">
+                <i class="fa fa-phone-alt me-3"></i>
+                <p class="mb-0">+0123 456 789</p>
+              </div>
+              <ul class="Media d-flex list-unstyled gap-3">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Back to Top -->
+    <span>
+      <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+    </span>
+
+    <!--script  -->
+    <script src="all.min.js"></script>
+    <script src="app.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>

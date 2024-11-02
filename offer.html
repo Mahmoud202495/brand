@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project-2</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Start Top-bar-->
+    <div class="Top-bar bg-light">
+      <div class="container-fluid p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+          <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+              <div class="lcon-text d-flex align-items-center">
+                <a class="phone" href="#">
+                  <i class="fa-solid fa-location-dot me-2"></i>
+                </a>
+                <p class="text-black-50 m-0">Find A Location</p>
+              </div>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+              <div class="lcon-text d-flex align-items-center">
+                <a class="phone" href="#">
+                  <i class="fa-solid fa-phone me-2"></i>
+                </a>
+                <p class="text-black-50 m-0">+012 345 6789</p>
+              </div>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3">
+              <div class="lcon-text d-flex align-items-center">
+                <a class="envelope" href="#">
+                  <i class="fa-solid fa-envelope me-2"></i>
+                </a>
+                <p class="text-black-50 m-0">Moo@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 px-5 text-center text-lg-end">
+            <div class="d-inline-flex align-items-center h-100">
+              <a class="me-3 text-black-50" href="#">
+                <i class="fa-solid fa-user me-2"></i> Register</a
+              >
+              <a class="me-3 text-black-50" href="#">
+                <i class="fa-solid fa-right-to-bracket me-2"></i> Login</a
+              >
+
+              <div class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle text-black-50"
+                  data-bs-toggle="dropdown"
+                >
+                  <i class="fa-solid fa-house-user me-2"></i> My Dashboard</a
+                >
+                <div class="dropdown-menu rounded">
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-user me-2"></i> My Profile</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-message me-2"></i> Inbox</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-regular fa-bell me-2"></i> Notifications</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-gear me-2"></i> Account Settings</a
+                  >
+                  <a href="#" class="dropdown-item"
+                    ><i class="fa-solid fa-power-off me-2"></i> Log Out</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Top-bar-->
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top py-lg-0 px-lg-5">
+      <div class="container-fluid px-lg-0">
+        <a class="navbar-brand fs-1 fw-bold" href="#">brand <span>.br</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase p-2 p-lg-4"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-2 p-lg-4" href="About.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-2 p-lg-4" href="Services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-2 p-lg-4" href="Blogs.html"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-uppercase active fw-bold p-2 p-lg-4"
+                href="Pages.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Features.html">Our Features</a>
+                </li>
+                <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                <li>
+                  <a class="dropdown-item" href="offer.html">Our offer</a>
+                </li>
+                <li><a class="dropdown-item" href="FAQs.html">FAQs</a></li>
+                <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-2 p-lg-4" href="Contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <div class="search icon d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass ps-2 text-light"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+    <!-- Page Header Start -->
+    <div class="page-header py-5 mb-5">
+      <div class="container text-center py-5">
+        <h2 class="display-3 text-white mb-3 fw-bold">Our offer</h2>
+        <ul class="oll-item d-flex justify-content-center ps-0">
+          <li class="item">
+            <a class="text-white" href="index.html">Home</a>
+          </li>
+          <li class="item px-2">
+            <a class="text-white" href="#">Pages</a>
+          </li>
+          <li class="item">
+            <a class="active" href="#">offer</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- start offer -->
+    <section class="offer">
+      <div class="container py-5">
+        <div class="inner-offer text-center mx-auto pb-5">
+          <h4 class="inner-offer-title">Our Offer</h4>
+          <h1 class="display-5 mb-4 fw-bold">Benefits We offer</h1>
+          <p class="text-black-50 mb-4 fs-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+            adipisci facilis cupiditate recusandae aperiam temporibus corporis
+            itaque quis facere, numquam, ad culpa deserunt sint dolorem autem
+            obcaecati, ipsam mollitia hic.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="menu d-flex justify-content-between w-100 h-100 me-4">
+              <button
+                class="item-project w-100 d-flex align-items-center text-start p-4 mb-3 active"
+                data-bs-target="#tab-pane-1"
+                type="button"
+              >
+                <h5 class="m-0">
+                  Lending money for investment of your new projects
+                </h5>
+              </button>
+              <button
+                class="item-project w-100 d-flex align-items-center text-start p-4 mb-3"
+                data-bs-target="#tab-pane-2"
+                type="button"
+              >
+                <h5 class="m-0">
+                  Lending money for investment of your new projects
+                </h5>
+              </button>
+              <button
+                class="item-project w-100 d-flex align-items-center text-start p-4 mb-3"
+                data-bs-target="#tab-pane-3"
+                type="button"
+              >
+                <h5 class="m-0">
+                  Lending money for investment of your new projects
+                </h5>
+              </button>
+              <button
+                class="item-project w-100 d-flex align-items-center text-start p-4 mb-0"
+                data-bs-target="#tab-pane-4"
+                type="button"
+              >
+                <h5 class="m-0">
+                  Lending money for investment of your new projects
+                </h5>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content w-100">
+              <div class="tab-pane active" id="tab-pane-1">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="image/offer-1.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mb-3">The stock market provides a venue...</h1>
+                    <p class="mb-4 text-black-50 fs-4 fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit harum beatae quo deserunt expedita iure eos
+                      dignissimos excepturi quos praesentium pariatur aperiam
+                      debitis, nisi ipsa et sunt quae cum consectetur?
+                    </p>
+                    <a href="#" class="main-btn rounded-pill py-3 px-5 mt-3"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-pane-2">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="image/offer-2.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mb-3">The stock market provides a venue...</h1>
+                    <p class="mb-4 text-black-50 fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit harum beatae quo deserunt expedita iure eos
+                      dignissimos excepturi quos praesentium pariatur aperiam
+                      debitis, nisi ipsa et sunt quae cum consectetur?
+                    </p>
+                    <a href="" class="main-btn rounded-pill py-3 px-5 mt-3"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-pane-3">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="image/offer-3.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mb-3">The stock market provides a venue...</h1>
+                    <p class="mb-4 text-black-50 fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit harum beatae quo deserunt expedita iure eos
+                      dignissimos excepturi quos praesentium pariatur aperiam
+                      debitis, nisi ipsa et sunt quae cum consectetur?
+                    </p>
+                    <a href="" class="main-btn rounded-pill py-3 px-5 mt-3"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-pane-4">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="image/offer-4.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="mb-3">The stock market provides a venue...</h1>
+                    <p class="mb-4 text-black-50 fs-4">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Reprehenderit harum beatae quo deserunt expedita iure eos
+                      dignissimos excepturi quos praesentium pariatur aperiam
+                      debitis, nisi ipsa et sunt quae cum consectetur?
+                    </p>
+                    <a href="" class="main-btn rounded-pill py-3 px-5 mt-3"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End offer -->
+    <!-- start footer -->
+    <footer class="footer pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="footer-item pt-5">
+              <a href="index.html" class="logo">
+                <h4 class="text-white mb-4">brand <span>.br</span></h4>
+              </a>
+              <p class="mb-4">
+                Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
+                ipsum dolor sit amet, consectetur Dolor amet sit justo amet
+                elitr clita ipsum elitr est.Lorem ipsum dolor sit amet,
+                consectetur adipiscing...
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="footer-item pt-5">
+              <h4 class="text-white mb-4">Quick Links</h4>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> About Us</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Feature</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Attractions</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Tickets</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Blog</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Contact us</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-item pt-5">
+              <h4 class="text-white mb-4">Support</h4>
+              <a href="#"
+                ><i class="fa fa-angle-right me-2"></i> Privacy Policy</a
+              >
+              <a href="#"
+                ><i class="fa fa-angle-right me-2"></i> Terms & Conditions</a
+              >
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Disclaimer</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Support</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> FAQ</a>
+              <a href="#"><i class="fa fa-angle-right me-2"></i> Help</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-item pt-5">
+              <h4 class="text-white mb-4">Contact Info</h4>
+              <div class="address d-flex align-items-center mb-3">
+                <i class="fa fa-map-marker-alt me-3"></i>
+                <p class="mb-0">123 Street New York</p>
+              </div>
+              <div class="mail d-flex align-items-center mb-3">
+                <i class="fa fa-envelope me-3"></i>
+                <p class="mb-0">gmail@gmail.com</p>
+              </div>
+              <div class="phone d-flex align-items-center mb-3">
+                <i class="fa fa-phone-alt me-3"></i>
+                <p class="mb-0">+0123 456 789</p>
+              </div>
+              <ul class="Media d-flex list-unstyled gap-3">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Back to Top -->
+    <span>
+      <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+    </span>
+
+    <!--script  -->
+    <script src="all.min.js"></script>
+    <script src="app.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
